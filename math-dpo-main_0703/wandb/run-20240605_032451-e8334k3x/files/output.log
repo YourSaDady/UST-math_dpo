@@ -1,0 +1,422 @@
+
+
+  0%|                                                                                                                                                                                             | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+
+
+
+
+
+
+
+
+  3%|████▊                                                                                                                                                                             | 10/374 [03:13<1:51:47, 18.43s/it]
+
+
+
+
+
+
+
+
+
+  5%|█████████                                                                                                                                                                         | 19/374 [05:54<1:43:56, 17.57s/it]
+
+
+
+
+
+
+
+
+
+
+
+  8%|██████████████▎                                                                                                                                                                   | 30/374 [09:06<1:41:02, 17.62s/it]
+
+
+
+
+
+
+
+
+
+
+ 11%|███████████████████                                                                                                                                                               | 40/374 [12:01<1:37:04, 17.44s/it]
+
+
+
+
+
+
+
+
+
+ 13%|███████████████████████▎                                                                                                                                                          | 49/374 [14:38<1:33:53, 17.33s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 16%|████████████████████████████▌                                                                                                                                                     | 60/374 [17:55<1:32:58, 17.77s/it]
+
+
+
+
+
+
+
+
+
+
+ 19%|█████████████████████████████████▎                                                                                                                                                | 70/374 [20:53<1:30:20, 17.83s/it]
+
+
+
+
+
+
+
+
+
+ 21%|█████████████████████████████████████▌                                                                                                                                            | 79/374 [23:32<1:26:25, 17.58s/it]
+
+
+
+
+
+
+
+
+
+
+ 24%|██████████████████████████████████████████▎                                                                                                                                       | 89/374 [26:28<1:23:43, 17.63s/it]
+
+
+
+
+
+
+
+
+
+
+ 26%|███████████████████████████████████████████████                                                                                                                                   | 99/374 [29:23<1:20:25, 17.55s/it]
+ 27%|███████████████████████████████████████████████▎                                                                                                                                 | 100/374 [29:40<1:20:10, 17.56s/it]
+  0%|                                                                                                                                                                                               | 0/2 [00:00<?, ?it/s]
+
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+
+
+
+
+
+
+
+
+ 29%|███████████████████████████████████████████████████▌                                                                                                                             | 109/374 [32:52<1:19:55, 18.10s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 32%|████████████████████████████████████████████████████████▊                                                                                                                        | 120/374 [36:04<1:14:07, 17.51s/it]
+
+
+
+
+
+
+
+
+
+
+ 35%|█████████████████████████████████████████████████████████████▌                                                                                                                   | 130/374 [39:01<1:11:44, 17.64s/it]
+
+
+
+
+
+
+
+
+
+
+ 37%|██████████████████████████████████████████████████████████████████▎                                                                                                              | 140/374 [41:58<1:08:43, 17.62s/it]
+
+
+
+
+
+
+
+
+
+ 40%|██████████████████████████████████████████████████████████████████████▌                                                                                                          | 149/374 [44:38<1:06:47, 17.81s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 43%|███████████████████████████████████████████████████████████████████████████▋                                                                                                     | 160/374 [47:50<1:03:06, 17.70s/it]
+
+
+
+
+
+
+
+
+
+ 45%|████████████████████████████████████████████████████████████████████████████████▉                                                                                                  | 169/374 [50:28<59:41, 17.47s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 48%|██████████████████████████████████████████████████████████████████████████████████████▏                                                                                            | 180/374 [53:41<57:03, 17.65s/it]
+
+
+
+
+
+
+
+
+
+ 51%|██████████████████████████████████████████████████████████████████████████████████████████▍                                                                                        | 189/374 [56:18<54:16, 17.60s/it]
+
+
+
+
+
+
+
+
+
+
+ 53%|███████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                   | 199/374 [59:15<51:21, 17.61s/it]
+ 53%|███████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                   | 200/374 [59:32<50:38, 17.46s/it]
+  0%|                                                                                                                                                                                               | 0/2 [00:00<?, ?it/s]
+
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+
+
+
+
+
+
+
+
+ 56%|██████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                              | 209/374 [1:02:54<52:10, 18.98s/it]
+
+
+
+
+
+
+
+
+
+
+ 59%|███████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                         | 219/374 [1:05:52<45:20, 17.55s/it]
+
+
+
+
+
+
+
+
+
+
+ 61%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                    | 229/374 [1:08:47<42:05, 17.42s/it]
+
+
+
+
+
+
+
+
+
+
+ 64%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                | 239/374 [1:11:42<39:06, 17.38s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 67%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                          | 250/374 [1:14:55<36:15, 17.55s/it]
+
+
+
+
+
+
+
+
+
+ 69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                      | 259/374 [1:17:33<33:48, 17.64s/it]
+
+
+
+
+
+
+
+
+
+
+ 72%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                 | 269/374 [1:20:29<30:54, 17.66s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 75%|██████████████████████████████████████████████████████████████▏                    | 280/374 [1:23:41<27:35, 17.61s/it]
+
+
+
+
+
+
+
+
+
+ 77%|████████████████████████████████████████████████████████████████▏                  | 289/374 [1:26:19<24:53, 17.58s/it]
+
+
+
+
+
+
+
+
+
+
+ 80%|██████████████████████████████████████████████████████████████████▎                | 299/374 [1:29:14<22:00, 17.60s/it]
+
+ 80%|██████████████████████████████████████████████████████████████████▌                | 300/374 [1:29:34<21:40, 17.58s/it]Checkpoint destination directory /home/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/results/ultrachat_compare/without_mask/checkpoint-300 already exists and is non-empty.Saving will proceed but saved results may be invalid.
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+{'eval_loss': 0.00041231774957850575, 'eval_runtime': 2.0733, 'eval_samples_per_second': 1.929, 'eval_steps_per_second': 0.965, 'eval_rewards/chosen': 5.1875, 'eval_rewards/rejected': -12.8125, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 18.0, 'eval_logps/rejected': -1760.0, 'eval_logps/chosen': -1072.0, 'eval_logits/rejected': -0.46484375, 'eval_logits/chosen': -1.390625, 'epoch': 1.45}
+
+
+
+
+
+
+
+
+
+ 83%|████████████████████████████████████████████████████████████████████▊              | 310/374 [1:33:12<20:07, 18.86s/it]
+
+
+
+
+
+
+
+
+
+ 85%|██████████████████████████████████████████████████████████████████████▊            | 319/374 [1:35:53<16:18, 17.79s/it]
+
+
+
+
+
+
+
+
+
+
+ 88%|█████████████████████████████████████████████████████████████████████████          | 329/374 [1:38:48<13:10, 17.58s/it]
+
+
+
+
+
+
+
+
+
+
+ 91%|███████████████████████████████████████████████████████████████████████████▏       | 339/374 [1:41:43<10:15, 17.60s/it]
+
+
+
+
+
+
+
+
+
+
+ 93%|█████████████████████████████████████████████████████████████████████████████▍     | 349/374 [1:44:40<07:20, 17.64s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 96%|███████████████████████████████████████████████████████████████████████████████▉   | 360/374 [1:47:53<04:07, 17.65s/it]
+
+
+
+
+
+
+
+
+
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████ | 370/374 [1:50:48<01:09, 17.43s/it]
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████| 374/374 [1:51:58<00:00, 17.96s/it]
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+{'train_runtime': 6728.607, 'train_samples_per_second': 2.668, 'train_steps_per_second': 0.056, 'train_loss': 0.034100914960117, 'epoch': 1.81}
+Removed shared tensor {'gpt_neox.layers.1.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.8.attention.query_key_value.weight', 'gpt_neox.layers.7.attention.query_key_value.weight', 'gpt_neox.layers.3.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.4.attention.query_key_value.weight', 'gpt_neox.layers.6.attention.query_key_value.weight', 'gpt_neox.layers.0.attention.dense.weight', 'gpt_neox.layers.14.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.10.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.13.attention.query_key_value.weight', 'gpt_neox.layers.1.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.12.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.15.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.10.attention.query_key_value.weight', 'gpt_neox.layers.7.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.9.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.5.attention.query_key_value.weight', 'gpt_neox.layers.10.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.0.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.9.attention.query_key_value.weight', 'gpt_neox.layers.9.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.5.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.6.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.12.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.2.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.2.attention.query_key_value.weight', 'gpt_neox.layers.11.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.14.attention.dense.weight', 'gpt_neox.layers.14.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.4.attention.dense.weight', 'gpt_neox.layers.8.attention.dense.weight', 'gpt_neox.layers.15.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.12.attention.dense.weight', 'gpt_neox.layers.4.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.5.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.3.attention.query_key_value.weight', 'gpt_neox.layers.1.attention.query_key_value.weight', 'gpt_neox.layers.13.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.3.attention.dense.weight', 'gpt_neox.layers.6.attention.dense.weight', 'gpt_neox.layers.10.attention.dense.weight', 'gpt_neox.layers.8.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.6.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.7.attention.dense.weight', 'gpt_neox.layers.9.attention.dense.weight', 'gpt_neox.layers.11.attention.dense.weight', 'gpt_neox.layers.15.attention.query_key_value.weight', 'gpt_neox.layers.1.attention.dense.weight', 'gpt_neox.layers.3.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.0.attention.query_key_value.weight', 'gpt_neox.layers.0.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.13.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.11.attention.query_key_value.weight', 'gpt_neox.layers.11.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.14.attention.query_key_value.weight', 'gpt_neox.layers.4.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.2.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.5.attention.dense.weight', 'gpt_neox.layers.2.attention.dense.weight', 'gpt_neox.layers.8.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.12.attention.query_key_value.weight', 'gpt_neox.layers.7.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.13.attention.dense.weight', 'gpt_neox.layers.15.attention.dense.weight'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading

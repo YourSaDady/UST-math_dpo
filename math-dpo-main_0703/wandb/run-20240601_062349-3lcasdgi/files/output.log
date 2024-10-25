@@ -1,0 +1,46 @@
+
+
+  0%|                                                                                | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|▏                                                                     | 1/374 [00:26<2:44:14, 26.42s/it]
+
+
+
+
+
+
+
+
+  2%|█▋                                                                    | 9/374 [03:09<2:00:20, 19.78s/it]Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 392, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2732, in training_step
+    self.accelerator.backward(loss)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/accelerate/accelerator.py", line 1960, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/accelerate/utils/deepspeed.py", line 176, in backward
+    self.engine.step()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2087, in step
+    self._take_model_step(lr_kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1994, in _take_model_step
+    self.optimizer.step()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/stage3.py", line 1855, in step
+    if self._overflow_check_and_loss_scale_update():
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/stage3.py", line 1799, in _overflow_check_and_loss_scale_update
+    self.check_overflow()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/stage3.py", line 2124, in check_overflow
+    self._check_overflow(partition_gradients)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/stage3.py", line 1949, in _check_overflow
+    self.overflow = self.has_overflow(partition_gradients)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/stage3.py", line 1972, in has_overflow
+    self.inf_or_nan_tracker.logical_or_(torch.isnan(self.grad_partitions_flat_buffer).any())
+KeyboardInterrupt

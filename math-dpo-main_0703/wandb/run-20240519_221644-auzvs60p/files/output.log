@@ -1,0 +1,12 @@
+
+
+  0%|                                                                                                                                                                                                                      | 0/6 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+ 33%|████████████████████████████████████████████████████████████████████▋                                                                                                                                         | 2/6 [00:38<01:15, 18.99s/it]
+
+ 50%|███████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                       | 3/6 [00:53<00:51, 17.12s/it]
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [01:41<00:00, 16.97s/it]
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+{'train_runtime': 109.5554, 'train_samples_per_second': 5.258, 'train_steps_per_second': 0.055, 'train_loss': 0.6890166600545248, 'epoch': 0.38}

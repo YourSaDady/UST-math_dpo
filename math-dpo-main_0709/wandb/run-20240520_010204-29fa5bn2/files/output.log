@@ -1,0 +1,77 @@
+
+
+  0%|                                                                                                                                                                                                                     | 0/69 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+
+
+
+
+
+ 10%|████████████████████▊                                                                                                                                                                                        | 7/69 [00:58<07:53,  7.64s/it]Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 149, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1961, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2902, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 360, in compute_loss
+    loss, metrics = self.get_batch_metrics(model, inputs, train_eval="train")
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 320, in get_batch_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 290, in concatenated_forward
+    all_logits = model(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1769, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/peft/peft_model.py", line 922, in forward
+    return self.base_model(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 1176, in forward
+    outputs = self.model(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 977, in forward
+    inputs_embeds = self.embed_tokens(input_ids)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1550, in _call_impl
+    args_result = hook(self, args)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 382, in _pre_forward_module_hook
+    self.pre_sub_module_forward_function(module)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 494, in pre_sub_module_forward_function
+    param_coordinator.fetch_sub_module(sub_module, forward=True)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 371, in fetch_sub_module
+    self.__all_gather_params(params_to_prefetch, forward)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 421, in __all_gather_params
+    with get_accelerator().stream(self.__allgather_stream):
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/cuda/__init__.py", line 512, in __enter__
+    torch.cuda.set_stream(cur_stream)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/torch/cuda/__init__.py", line 569, in set_stream
+    device_type=stream.device_type,
+KeyboardInterrupt

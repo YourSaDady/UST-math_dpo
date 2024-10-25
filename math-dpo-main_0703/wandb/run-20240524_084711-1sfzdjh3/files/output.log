@@ -1,0 +1,22 @@
+  0%|                                                                                           | 0/234 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 167, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1821, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/accelerate/data_loader.py", line 452, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/trl/trainer/utils.py", line 378, in __call__
+    return self.collate(tokenized_batch)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/trl/trainer/utils.py", line 347, in collate
+    to_pad = [torch.LongTensor(ex[k]) for ex in batch]
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/trl/trainer/utils.py", line 347, in <listcomp>
+    to_pad = [torch.LongTensor(ex[k]) for ex in batch]
+ValueError: expected sequence of length 13 at dim 1 (got 9)

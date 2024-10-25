@@ -1,0 +1,190 @@
+2024-05-26 12:41:12,984 INFO    StreamThr :3739650 [internal.py:wandb_internal():87] W&B internal server running at pid: 3739650, started at: 2024-05-26 12:41:12.983495
+2024-05-26 12:41:12,987 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: status
+2024-05-26 12:41:12,999 INFO    WriterThread:3739650 [datastore.py:open_for_write():85] open: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/run-6m30nydh.wandb
+2024-05-26 12:41:13,000 DEBUG   SenderThread:3739650 [sender.py:send():336] send: header
+2024-05-26 12:41:13,002 DEBUG   SenderThread:3739650 [sender.py:send():336] send: run
+2024-05-26 12:41:13,641 INFO    SenderThread:3739650 [dir_watcher.py:__init__():219] watching files in: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files
+2024-05-26 12:41:13,641 INFO    SenderThread:3739650 [sender.py:_start_run_threads():1078] run started: 6m30nydh with start time 1716698472.985299
+2024-05-26 12:41:13,642 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: summary_record
+2024-05-26 12:41:13,643 INFO    SenderThread:3739650 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-05-26 12:41:13,653 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: check_version
+2024-05-26 12:41:13,654 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: check_version
+2024-05-26 12:41:13,762 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: run_start
+2024-05-26 12:41:13,808 DEBUG   HandlerThread:3739650 [system_info.py:__init__():31] System info init
+2024-05-26 12:41:13,809 DEBUG   HandlerThread:3739650 [system_info.py:__init__():46] System info init done
+2024-05-26 12:41:13,809 INFO    HandlerThread:3739650 [system_monitor.py:start():183] Starting system monitor
+2024-05-26 12:41:13,809 INFO    SystemMonitor:3739650 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-05-26 12:41:13,810 INFO    HandlerThread:3739650 [system_monitor.py:probe():204] Collecting system info
+2024-05-26 12:41:13,811 INFO    SystemMonitor:3739650 [interfaces.py:start():187] Started cpu monitoring
+2024-05-26 12:41:13,812 INFO    SystemMonitor:3739650 [interfaces.py:start():187] Started disk monitoring
+2024-05-26 12:41:13,814 INFO    SystemMonitor:3739650 [interfaces.py:start():187] Started gpu monitoring
+2024-05-26 12:41:13,815 INFO    SystemMonitor:3739650 [interfaces.py:start():187] Started memory monitoring
+2024-05-26 12:41:13,816 INFO    SystemMonitor:3739650 [interfaces.py:start():187] Started network monitoring
+2024-05-26 12:41:13,861 DEBUG   HandlerThread:3739650 [system_info.py:probe():195] Probing system
+2024-05-26 12:41:13,875 DEBUG   HandlerThread:3739650 [git.py:repo():40] git repository is invalid
+2024-05-26 12:41:13,875 DEBUG   HandlerThread:3739650 [system_info.py:probe():240] Probing system done
+2024-05-26 12:41:13,875 DEBUG   HandlerThread:3739650 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-102-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-05-26T04:41:13.861214', 'startedAt': '2024-05-26T04:41:12.955145', 'docker': None, 'cuda': None, 'args': ('--output_dir=/home/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/results/hh-rlhf', '--max_steps=234', '--data_root=/home/nlpintern1/songyc/datasets/hh-rlhf', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--learning_rate=1e-5', '--model_name_or_path=/home/nlpintern1/songyc/models/pythia-1b-deduped'), 'state': 'running', 'program': '/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py', 'codePath': 'spin/dpo_llama2.py', 'host': 'tongzhang1.math.ust.hk', 'username': 'nlpintern1', 'executable': '/home/nlpintern1/anaconda3/envs/jp_lmflow/bin/python', 'cpu_count': 28, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1.2499285714285713, 'min': 1000.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.045, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.9, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.0, 'min': 1000.0, 'max': 3200.0}], 'disk': {'total': 219.37694931030273, 'used': 54.35527038574219}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 1006.5593299865723}}
+2024-05-26 12:41:13,876 INFO    HandlerThread:3739650 [system_monitor.py:probe():214] Finished collecting system info
+2024-05-26 12:41:13,876 INFO    HandlerThread:3739650 [system_monitor.py:probe():217] Publishing system info
+2024-05-26 12:41:13,876 DEBUG   HandlerThread:3739650 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-05-26 12:41:13,878 DEBUG   HandlerThread:3739650 [system_info.py:_save_pip():67] Saving pip packages done
+2024-05-26 12:41:13,878 DEBUG   HandlerThread:3739650 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-05-26 12:41:14,648 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_created():278] file/dir created: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/conda-environment.yaml
+2024-05-26 12:41:14,649 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_created():278] file/dir created: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/requirements.txt
+2024-05-26 12:41:14,649 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_created():278] file/dir created: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/wandb-summary.json
+2024-05-26 12:41:20,491 DEBUG   HandlerThread:3739650 [system_info.py:_save_conda():86] Saving conda packages done
+2024-05-26 12:41:20,494 INFO    HandlerThread:3739650 [system_monitor.py:probe():219] Finished publishing system info
+2024-05-26 12:41:20,501 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: status_report
+2024-05-26 12:41:20,502 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-26 12:41:20,503 DEBUG   SenderThread:3739650 [sender.py:send():336] send: files
+2024-05-26 12:41:20,504 INFO    SenderThread:3739650 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2024-05-26 12:41:20,515 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-26 12:41:20,516 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: stop_status
+2024-05-26 12:41:20,651 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_modified():295] file/dir modified: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/conda-environment.yaml
+2024-05-26 12:41:20,652 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_created():278] file/dir created: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/wandb-metadata.json
+2024-05-26 12:41:20,932 DEBUG   SenderThread:3739650 [sender.py:send():336] send: telemetry
+2024-05-26 12:41:20,933 DEBUG   SenderThread:3739650 [sender.py:send():336] send: config
+2024-05-26 12:41:20,935 DEBUG   SenderThread:3739650 [sender.py:send():336] send: metric
+2024-05-26 12:41:20,935 DEBUG   SenderThread:3739650 [sender.py:send():336] send: telemetry
+2024-05-26 12:41:20,936 DEBUG   SenderThread:3739650 [sender.py:send():336] send: metric
+2024-05-26 12:41:20,939 WARNING SenderThread:3739650 [sender.py:send_metric():1283] Seen metric with glob (shouldn't happen)
+2024-05-26 12:41:20,939 DEBUG   SenderThread:3739650 [sender.py:send():336] send: telemetry
+2024-05-26 12:41:20,943 DEBUG   SenderThread:3739650 [sender.py:send():336] send: exit
+2024-05-26 12:41:20,943 INFO    SenderThread:3739650 [sender.py:send_exit():559] handling exit code: 1
+2024-05-26 12:41:20,943 INFO    SenderThread:3739650 [sender.py:send_exit():561] handling runtime: 6
+2024-05-26 12:41:20,948 INFO    SenderThread:3739650 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-05-26 12:41:20,949 INFO    SenderThread:3739650 [sender.py:send_exit():567] send defer
+2024-05-26 12:41:20,950 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:20,950 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 0
+2024-05-26 12:41:20,951 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:20,951 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 0
+2024-05-26 12:41:20,951 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 1
+2024-05-26 12:41:20,952 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:20,952 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 1
+2024-05-26 12:41:20,952 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:20,952 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 1
+2024-05-26 12:41:20,953 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 2
+2024-05-26 12:41:20,953 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:20,953 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 2
+2024-05-26 12:41:20,953 INFO    HandlerThread:3739650 [system_monitor.py:finish():193] Stopping system monitor
+2024-05-26 12:41:20,954 DEBUG   SystemMonitor:3739650 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-05-26 12:41:20,955 DEBUG   SystemMonitor:3739650 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-05-26 12:41:20,955 DEBUG   SystemMonitor:3739650 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-05-26 12:41:20,956 INFO    HandlerThread:3739650 [interfaces.py:finish():199] Joined cpu monitor
+2024-05-26 12:41:20,957 INFO    HandlerThread:3739650 [interfaces.py:finish():199] Joined disk monitor
+2024-05-26 12:41:21,333 INFO    HandlerThread:3739650 [interfaces.py:finish():199] Joined gpu monitor
+2024-05-26 12:41:21,333 INFO    HandlerThread:3739650 [interfaces.py:finish():199] Joined memory monitor
+2024-05-26 12:41:21,334 INFO    HandlerThread:3739650 [interfaces.py:finish():199] Joined network monitor
+2024-05-26 12:41:21,335 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:21,335 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 2
+2024-05-26 12:41:21,335 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 3
+2024-05-26 12:41:21,336 DEBUG   SenderThread:3739650 [sender.py:send():336] send: stats
+2024-05-26 12:41:21,336 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:21,337 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 3
+2024-05-26 12:41:21,338 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:21,338 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 3
+2024-05-26 12:41:21,338 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 4
+2024-05-26 12:41:21,338 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:21,338 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 4
+2024-05-26 12:41:21,339 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:21,339 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 4
+2024-05-26 12:41:21,339 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 5
+2024-05-26 12:41:21,339 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:21,340 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 5
+2024-05-26 12:41:21,340 DEBUG   SenderThread:3739650 [sender.py:send():336] send: summary
+2024-05-26 12:41:21,342 INFO    SenderThread:3739650 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-05-26 12:41:21,342 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:21,343 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 5
+2024-05-26 12:41:21,343 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 6
+2024-05-26 12:41:21,343 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:21,343 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 6
+2024-05-26 12:41:21,344 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:21,344 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 6
+2024-05-26 12:41:21,350 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: status_report
+2024-05-26 12:41:21,409 INFO    wandb-upload_0:3739650 [upload_job.py:push():138] Uploaded file /tmp/tmpj6tc950pwandb/ijnvwcbw-wandb-metadata.json
+2024-05-26 12:41:21,618 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-26 12:41:21,653 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_modified():295] file/dir modified: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/wandb-summary.json
+2024-05-26 12:41:21,653 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_created():278] file/dir created: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/output.log
+2024-05-26 12:41:21,733 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 7
+2024-05-26 12:41:21,733 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: poll_exit
+2024-05-26 12:41:21,734 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:21,734 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 7
+2024-05-26 12:41:21,735 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:21,735 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 7
+2024-05-26 12:41:22,619 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-26 12:41:22,654 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_modified():295] file/dir modified: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/config.yaml
+2024-05-26 12:41:22,958 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 8
+2024-05-26 12:41:22,958 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: poll_exit
+2024-05-26 12:41:22,959 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:22,959 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 8
+2024-05-26 12:41:22,960 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:22,960 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 8
+2024-05-26 12:41:22,961 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 9
+2024-05-26 12:41:22,962 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:22,962 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 9
+2024-05-26 12:41:22,963 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:22,963 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 9
+2024-05-26 12:41:22,963 INFO    SenderThread:3739650 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-05-26 12:41:23,620 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-26 12:41:23,655 INFO    Thread-13 :3739650 [dir_watcher.py:_on_file_modified():295] file/dir modified: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/output.log
+2024-05-26 12:41:23,656 INFO    SenderThread:3739650 [dir_watcher.py:finish():395] scan: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files
+2024-05-26 12:41:23,657 INFO    SenderThread:3739650 [dir_watcher.py:finish():409] scan save: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/config.yaml config.yaml
+2024-05-26 12:41:23,657 INFO    SenderThread:3739650 [dir_watcher.py:finish():409] scan save: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/requirements.txt requirements.txt
+2024-05-26 12:41:23,663 INFO    SenderThread:3739650 [dir_watcher.py:finish():409] scan save: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/output.log output.log
+2024-05-26 12:41:23,671 INFO    SenderThread:3739650 [dir_watcher.py:finish():409] scan save: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/conda-environment.yaml conda-environment.yaml
+2024-05-26 12:41:23,678 INFO    SenderThread:3739650 [dir_watcher.py:finish():409] scan save: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/wandb-summary.json wandb-summary.json
+2024-05-26 12:41:23,684 INFO    SenderThread:3739650 [dir_watcher.py:finish():409] scan save: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/wandb-metadata.json wandb-metadata.json
+2024-05-26 12:41:23,684 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 10
+2024-05-26 12:41:23,685 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: poll_exit
+2024-05-26 12:41:23,685 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:23,690 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 10
+2024-05-26 12:41:23,690 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:23,691 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 10
+2024-05-26 12:41:23,691 INFO    SenderThread:3739650 [file_pusher.py:finish():164] shutting down file pusher
+2024-05-26 12:41:24,518 INFO    wandb-upload_4:3739650 [upload_job.py:push():138] Uploaded file /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/wandb-summary.json
+2024-05-26 12:41:24,622 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-26 12:41:24,623 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: poll_exit
+2024-05-26 12:41:24,749 INFO    wandb-upload_3:3739650 [upload_job.py:push():138] Uploaded file /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/conda-environment.yaml
+2024-05-26 12:41:24,812 INFO    wandb-upload_0:3739650 [upload_job.py:push():138] Uploaded file /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/config.yaml
+2024-05-26 12:41:24,909 INFO    wandb-upload_1:3739650 [upload_job.py:push():138] Uploaded file /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/requirements.txt
+2024-05-26 12:41:24,912 INFO    wandb-upload_2:3739650 [upload_job.py:push():138] Uploaded file /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/files/output.log
+2024-05-26 12:41:25,113 INFO    Thread-12 :3739650 [sender.py:transition_state():587] send defer: 11
+2024-05-26 12:41:25,113 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:25,114 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 11
+2024-05-26 12:41:25,114 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:25,115 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 11
+2024-05-26 12:41:25,115 INFO    SenderThread:3739650 [file_pusher.py:join():169] waiting for file pusher
+2024-05-26 12:41:25,115 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 12
+2024-05-26 12:41:25,115 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:25,116 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 12
+2024-05-26 12:41:25,117 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:25,117 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 12
+2024-05-26 12:41:25,328 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 13
+2024-05-26 12:41:25,328 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:25,329 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 13
+2024-05-26 12:41:25,329 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:25,330 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 13
+2024-05-26 12:41:25,330 INFO    SenderThread:3739650 [sender.py:transition_state():587] send defer: 14
+2024-05-26 12:41:25,331 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: defer
+2024-05-26 12:41:25,331 INFO    HandlerThread:3739650 [handler.py:handle_request_defer():170] handle defer: 14
+2024-05-26 12:41:25,331 DEBUG   SenderThread:3739650 [sender.py:send():336] send: final
+2024-05-26 12:41:25,332 DEBUG   SenderThread:3739650 [sender.py:send():336] send: footer
+2024-05-26 12:41:25,332 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: defer
+2024-05-26 12:41:25,333 INFO    SenderThread:3739650 [sender.py:send_request_defer():583] handle sender defer: 14
+2024-05-26 12:41:25,334 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-26 12:41:25,335 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: poll_exit
+2024-05-26 12:41:25,335 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-26 12:41:25,336 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: server_info
+2024-05-26 12:41:25,337 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: poll_exit
+2024-05-26 12:41:25,337 DEBUG   SenderThread:3739650 [sender.py:send_request():363] send_request: server_info
+2024-05-26 12:41:25,343 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: get_summary
+2024-05-26 12:41:25,344 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: sampled_history
+2024-05-26 12:41:25,904 INFO    MainThread:3739650 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2024-05-26 12:41:25,904 INFO    MainThread:3739650 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2024-05-26 12:41:25,905 INFO    MainThread:3739650 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2024-05-26 12:41:25,906 DEBUG   HandlerThread:3739650 [handler.py:handle_request():144] handle_request: shutdown
+2024-05-26 12:41:25,906 INFO    HandlerThread:3739650 [handler.py:finish():842] shutting down handler
+2024-05-26 12:41:26,337 INFO    WriterThread:3739650 [datastore.py:close():298] close: /import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/wandb/run-20240526_124112-6m30nydh/run-6m30nydh.wandb
+2024-05-26 12:41:26,904 INFO    SenderThread:3739650 [sender.py:finish():1504] shutting down sender
+2024-05-26 12:41:26,905 INFO    SenderThread:3739650 [file_pusher.py:finish():164] shutting down file pusher
+2024-05-26 12:41:26,905 INFO    SenderThread:3739650 [file_pusher.py:join():169] waiting for file pusher

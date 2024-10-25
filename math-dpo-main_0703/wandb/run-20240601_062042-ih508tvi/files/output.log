@@ -1,0 +1,90 @@
+
+  0%|                                                                                           | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 392, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2723, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 360, in compute_loss
+    loss, metrics = self.get_batch_metrics(model, inputs, train_eval="train")
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 320, in get_batch_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 290, in concatenated_forward
+    all_logits = model(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1769, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/models/gpt_neox/modeling_gpt_neox.py", line 1032, in forward
+    outputs = self.gpt_neox(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/models/gpt_neox/modeling_gpt_neox.py", line 912, in forward
+    outputs = self._gradient_checkpointing_func(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/_dynamo/eval_frame.py", line 489, in _fn
+    return fn(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/checkpoint.py", line 482, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/autograd/function.py", line 553, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/checkpoint.py", line 261, in forward
+    outputs = run_function(*args)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/models/gpt_neox/modeling_gpt_neox.py", line 704, in forward
+    mlp_output = self.mlp(self.post_attention_layernorm(hidden_states))
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/transformers/models/gpt_neox/modeling_gpt_neox.py", line 657, in forward
+    hidden_states = self.dense_4h_to_h(hidden_states)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1574, in _call_impl
+    hook_result = hook(self, args, result)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 424, in _post_forward_module_hook
+    self.post_sub_module_forward_function(module)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 504, in post_sub_module_forward_function
+    param_coordinator.release_sub_module(sub_module, backward=False)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 384, in release_sub_module
+    params_to_release = (self.__params_to_release(submodule, self.__step_id) if self.is_complete_trace() else set(
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 472, in __params_to_release
+    for param in iter_params(module):
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 33, in iter_params
+    return map(lambda pair: pair[1], get_all_parameters(module, recurse))
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/nlpintern1/anaconda3/envs/jp_lmflow/lib/python3.9/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 29, in get_all_parameters
+    return itertools.chain(sub_module.named_parameters(recurse=recurse), sub_module.ds_external_parameters())
+KeyboardInterrupt

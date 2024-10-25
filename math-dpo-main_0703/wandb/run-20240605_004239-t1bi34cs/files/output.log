@@ -1,0 +1,534 @@
+
+
+  0%|                                                                                                                 | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|▎                                                                                                      | 1/374 [00:29<3:04:23, 29.66s/it]
+[2024-06-05 00:43:16,919] [WARNING] [stage3.py:1898:step] 7 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+  1%|▊                                                                                                      | 3/374 [01:12<2:22:45, 23.09s/it]
+
+  1%|█                                                                                                      | 4/374 [01:31<2:13:58, 21.72s/it]
+[2024-06-05 00:44:19,046] [WARNING] [stage3.py:1898:step] 8 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+  1%|█▍                                                                                                     | 5/374 [01:52<2:11:49, 21.44s/it]
+
+  2%|█▋                                                                                                     | 6/374 [02:12<2:08:28, 20.95s/it]
+
+  2%|█▉                                                                                                     | 7/374 [02:33<2:07:16, 20.81s/it]
+
+  2%|██▏                                                                                                    | 8/374 [02:51<2:02:49, 20.13s/it]
+
+  2%|██▍                                                                                                    | 9/374 [03:08<1:56:19, 19.12s/it]
+
+  3%|██▋                                                                                                   | 10/374 [03:30<1:59:46, 19.74s/it]
+{'loss': 0.723, 'learning_rate': 1.0000000000000002e-06, 'rewards/chosen': 0.03857421875, 'rewards/rejected': 0.012451171875, 'rewards/accuracies': 0.23749999701976776, 'rewards/margins': 0.02587890625, 'logps/rejected': -2048.0, 'logps/chosen': -1072.0, 'logits/rejected': 0.1552734375, 'logits/chosen': -0.259765625, 'epoch': 0.02}
+
+  3%|███                                                                                                   | 11/374 [03:47<1:55:45, 19.13s/it]
+
+
+  3%|███▌                                                                                                  | 13/374 [04:24<1:52:37, 18.72s/it]
+[2024-06-05 00:47:11,470] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+  4%|███▊                                                                                                  | 14/374 [04:43<1:53:34, 18.93s/it]
+
+
+  4%|████▎                                                                                                 | 16/374 [05:20<1:51:48, 18.74s/it]
+[2024-06-05 00:48:07,929] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+  5%|████▋                                                                                                 | 17/374 [05:39<1:52:17, 18.87s/it]
+
+  5%|████▉                                                                                                 | 18/374 [05:57<1:49:41, 18.49s/it]
+
+  5%|█████▏                                                                                                | 19/374 [06:15<1:49:10, 18.45s/it]
+[2024-06-05 00:49:22,204] [WARNING] [stage3.py:1898:step] 7 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+  5%|█████▍                                                                                                | 20/374 [06:34<1:50:04, 18.66s/it]
+
+  6%|█████▋                                                                                                | 21/374 [06:53<1:48:48, 18.49s/it]
+
+  6%|██████                                                                                                | 22/374 [07:12<1:49:43, 18.70s/it]
+
+  6%|██████▎                                                                                               | 23/374 [07:31<1:49:42, 18.75s/it]
+
+  6%|██████▌                                                                                               | 24/374 [07:49<1:48:52, 18.66s/it]
+
+  7%|██████▊                                                                                               | 25/374 [08:07<1:47:12, 18.43s/it]
+
+  7%|███████                                                                                               | 26/374 [08:23<1:43:15, 17.80s/it]
+
+  7%|███████▎                                                                                              | 27/374 [08:42<1:44:14, 18.02s/it]
+
+
+  8%|███████▉                                                                                              | 29/374 [09:14<1:37:50, 17.02s/it]
+
+  8%|████████▏                                                                                             | 30/374 [09:33<1:39:42, 17.39s/it]
+[2024-06-05 00:52:20,279] [WARNING] [stage3.py:1898:step] 10 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 0.1667, 'learning_rate': 3e-06, 'rewards/chosen': 1.09375, 'rewards/rejected': -1.6640625, 'rewards/accuracies': 0.9624999761581421, 'rewards/margins': 2.75, 'logps/rejected': -1984.0, 'logps/chosen': -1004.0, 'logits/rejected': 0.0108642578125, 'logits/chosen': -0.4140625, 'epoch': 0.05}
+
+
+  9%|████████▋                                                                                             | 32/374 [10:06<1:37:53, 17.17s/it]
+[2024-06-05 00:52:54,063] [WARNING] [stage3.py:1898:step] 8 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+  9%|█████████                                                                                             | 33/374 [10:23<1:37:19, 17.12s/it]
+
+  9%|█████████▎                                                                                            | 34/374 [10:39<1:35:16, 16.81s/it]
+
+
+ 10%|█████████▊                                                                                            | 36/374 [11:15<1:36:47, 17.18s/it]
+[2024-06-05 00:54:02,283] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 10%|██████████                                                                                            | 37/374 [11:31<1:34:31, 16.83s/it]
+
+ 10%|██████████▎                                                                                           | 38/374 [11:49<1:37:34, 17.42s/it]
+
+ 10%|██████████▋                                                                                           | 39/374 [12:06<1:35:57, 17.19s/it]
+[2024-06-05 00:55:10,461] [WARNING] [stage3.py:1898:step] 6 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 11%|██████████▉                                                                                           | 40/374 [12:23<1:34:54, 17.05s/it]
+
+ 11%|███████████▏                                                                                          | 41/374 [12:40<1:35:11, 17.15s/it]
+
+ 11%|███████████▍                                                                                          | 42/374 [12:57<1:34:40, 17.11s/it]
+
+ 11%|███████████▋                                                                                          | 43/374 [13:14<1:34:01, 17.04s/it]
+
+ 12%|████████████                                                                                          | 44/374 [13:31<1:33:18, 16.97s/it]
+
+ 12%|████████████▎                                                                                         | 45/374 [13:49<1:35:44, 17.46s/it]
+
+
+ 13%|████████████▊                                                                                         | 47/374 [14:23<1:33:42, 17.19s/it]
+
+ 13%|█████████████                                                                                         | 48/374 [14:41<1:33:59, 17.30s/it]
+
+ 13%|█████████████▎                                                                                        | 49/374 [14:57<1:31:16, 16.85s/it]
+
+ 13%|█████████████▋                                                                                        | 50/374 [15:12<1:29:15, 16.53s/it]
+[2024-06-05 00:58:00,129] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 14%|█████████████▉                                                                                        | 51/374 [15:30<1:31:09, 16.93s/it]
+
+ 14%|██████████████▏                                                                                       | 52/374 [15:47<1:30:39, 16.89s/it]
+
+ 14%|██████████████▍                                                                                       | 53/374 [16:05<1:31:17, 17.06s/it]
+
+ 14%|██████████████▋                                                                                       | 54/374 [16:21<1:30:27, 16.96s/it]
+
+ 15%|███████████████                                                                                       | 55/374 [16:39<1:31:02, 17.12s/it]
+
+ 15%|███████████████▎                                                                                      | 56/374 [16:56<1:31:24, 17.25s/it]
+
+ 15%|███████████████▌                                                                                      | 57/374 [17:13<1:29:35, 16.96s/it]
+
+ 16%|███████████████▊                                                                                      | 58/374 [17:28<1:26:30, 16.43s/it]
+
+ 16%|████████████████                                                                                      | 59/374 [17:44<1:25:55, 16.37s/it]
+
+ 16%|████████████████▎                                                                                     | 60/374 [18:02<1:27:52, 16.79s/it]
+[2024-06-05 01:00:49,503] [WARNING] [stage3.py:1898:step] 10 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 16%|████████████████▋                                                                                     | 61/374 [18:18<1:27:07, 16.70s/it]
+
+ 17%|████████████████▉                                                                                     | 62/374 [18:34<1:25:15, 16.39s/it]
+
+ 17%|█████████████████▏                                                                                    | 63/374 [18:51<1:26:02, 16.60s/it]
+
+ 17%|█████████████████▍                                                                                    | 64/374 [19:08<1:26:43, 16.79s/it]
+
+ 17%|█████████████████▋                                                                                    | 65/374 [19:25<1:26:01, 16.70s/it]
+
+ 18%|██████████████████                                                                                    | 66/374 [19:44<1:28:56, 17.33s/it]
+
+ 18%|██████████████████▎                                                                                   | 67/374 [20:02<1:30:55, 17.77s/it]
+
+ 18%|██████████████████▌                                                                                   | 68/374 [20:20<1:30:35, 17.76s/it]
+
+ 18%|██████████████████▊                                                                                   | 69/374 [20:38<1:31:17, 17.96s/it]
+
+ 19%|███████████████████                                                                                   | 70/374 [20:58<1:32:56, 18.34s/it]
+[2024-06-05 01:03:45,465] [WARNING] [stage3.py:1898:step] 11 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 19%|███████████████████▎                                                                                  | 71/374 [21:16<1:32:39, 18.35s/it]
+
+ 19%|███████████████████▋                                                                                  | 72/374 [21:33<1:30:04, 17.90s/it]
+
+ 20%|███████████████████▉                                                                                  | 73/374 [21:52<1:31:25, 18.22s/it]
+
+ 20%|████████████████████▏                                                                                 | 74/374 [22:09<1:29:03, 17.81s/it]
+
+ 20%|████████████████████▍                                                                                 | 75/374 [22:27<1:29:10, 17.89s/it]
+
+ 20%|████████████████████▋                                                                                 | 76/374 [22:45<1:28:40, 17.85s/it]
+
+ 21%|█████████████████████                                                                                 | 77/374 [23:02<1:28:09, 17.81s/it]
+
+ 21%|█████████████████████▎                                                                                | 78/374 [23:18<1:25:22, 17.31s/it]
+[2024-06-05 01:06:06,187] [WARNING] [stage3.py:1898:step] 8 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+ 21%|█████████████████████▊                                                                                | 80/374 [23:53<1:24:42, 17.29s/it]
+[2024-06-05 01:06:40,669] [WARNING] [stage3.py:1898:step] 11 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 22%|██████████████████████                                                                                | 81/374 [24:10<1:24:06, 17.22s/it]
+
+ 22%|██████████████████████▎                                                                               | 82/374 [24:27<1:23:36, 17.18s/it]
+
+ 22%|██████████████████████▋                                                                               | 83/374 [24:44<1:23:35, 17.24s/it]
+
+ 22%|██████████████████████▉                                                                               | 84/374 [25:03<1:25:00, 17.59s/it]
+
+ 23%|███████████████████████▏                                                                              | 85/374 [25:21<1:26:05, 17.88s/it]
+
+ 23%|███████████████████████▍                                                                              | 86/374 [25:39<1:25:11, 17.75s/it]
+[2024-06-05 01:08:26,588] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 23%|███████████████████████▋                                                                              | 87/374 [25:58<1:26:23, 18.06s/it]
+
+
+ 24%|████████████████████████▎                                                                             | 89/374 [26:29<1:20:47, 17.01s/it]
+
+ 24%|████████████████████████▌                                                                             | 90/374 [26:47<1:21:19, 17.18s/it]
+[2024-06-05 01:09:34,599] [WARNING] [stage3.py:1898:step] 10 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 24%|████████████████████████▊                                                                             | 91/374 [27:04<1:20:21, 17.04s/it]
+
+ 25%|█████████████████████████                                                                             | 92/374 [27:21<1:20:28, 17.12s/it]
+[2024-06-05 01:10:08,626] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 25%|█████████████████████████▎                                                                            | 93/374 [27:38<1:20:18, 17.15s/it]
+
+
+ 25%|█████████████████████████▉                                                                            | 95/374 [28:14<1:21:19, 17.49s/it]
+[2024-06-05 01:11:01,448] [WARNING] [stage3.py:1898:step] 11 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+ 26%|██████████████████████████▍                                                                           | 97/374 [28:47<1:19:12, 17.16s/it]
+[2024-06-05 01:11:34,978] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+ 26%|███████████████████████████                                                                           | 99/374 [29:21<1:18:12, 17.06s/it]
+ 27%|███████████████████████████                                                                          | 100/374 [29:37<1:15:55, 16.62s/it]
+  0%|                                                                                                                   | 0/4 [00:00<?, ?it/s]
+[2024-06-05 01:12:24,672] [WARNING] [stage3.py:1898:step] 6 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 75%|████████████████████████████████████████████████████████████████████████████████▎                          | 3/4 [00:01<00:00,  1.62it/s]
+
+{'eval_loss': 6.157421739771962e-05, 'eval_runtime': 3.539, 'eval_samples_per_second': 1.13, 'eval_steps_per_second': 1.13, 'eval_rewards/chosen': 1.796875, 'eval_rewards/rejected': -10.0, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 11.75, 'eval_logps/rejected': -2128.0, 'eval_logps/chosen': -1168.0, 'eval_logits/rejected': -0.15234375, 'eval_logits/chosen': -0.7890625, 'epoch': 0.16}
+ 27%|███████████████████████████▎                                                                         | 101/374 [30:40<2:18:55, 30.53s/it]
+
+ 27%|███████████████████████████▌                                                                         | 102/374 [30:55<1:58:04, 26.05s/it]
+[2024-06-05 01:13:43,237] [WARNING] [stage3.py:1898:step] 7 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+ 28%|████████████████████████████                                                                         | 104/374 [31:27<1:33:58, 20.88s/it]
+
+ 28%|████████████████████████████▎                                                                        | 105/374 [31:45<1:29:52, 20.05s/it]
+[2024-06-05 01:14:33,010] [WARNING] [stage3.py:1898:step] 9 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+ 28%|████████████████████████████▋                                                                        | 106/374 [32:02<1:25:38, 19.17s/it]
+
+ 29%|████████████████████████████▉                                                                        | 107/374 [32:18<1:20:51, 18.17s/it]
+
+
+ 29%|█████████████████████████████▍                                                                       | 109/374 [32:52<1:16:54, 17.42s/it]
+
+ 29%|█████████████████████████████▋                                                                       | 110/374 [33:06<1:13:11, 16.63s/it]
+[2024-06-05 01:15:54,137] [WARNING] [stage3.py:1898:step] 3 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+
+
+
+
+
+
+
+
+ 32%|█████████████████████████████████                                                                      | 120/374 [35:20<57:01, 13.47s/it]
+
+
+
+
+
+
+
+
+
+
+ 35%|███████████████████████████████████▊                                                                   | 130/374 [37:39<56:36, 13.92s/it]
+
+
+
+
+
+
+
+
+
+
+ 37%|██████████████████████████████████████▌                                                                | 140/374 [39:51<50:21, 12.91s/it]
+
+
+
+
+
+
+
+
+
+ 40%|█████████████████████████████████████████                                                              | 149/374 [41:50<49:24, 13.18s/it]
+
+
+
+
+
+
+
+
+
+
+ 43%|███████████████████████████████████████████▊                                                           | 159/374 [44:08<50:06, 13.98s/it]
+
+
+
+
+
+
+
+
+
+
+ 45%|██████████████████████████████████████████████▌                                                        | 169/374 [46:21<45:52, 13.43s/it]
+
+
+
+
+
+
+
+
+
+
+ 48%|█████████████████████████████████████████████████▎                                                     | 179/374 [48:39<43:42, 13.45s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 51%|████████████████████████████████████████████████████▎                                                  | 190/374 [51:07<41:22, 13.49s/it]
+
+
+
+
+
+
+
+
+
+
+ 53%|███████████████████████████████████████████████████████                                                | 200/374 [53:24<40:06, 13.83s/it]
+{'loss': 0.0021, 'learning_rate': 7.058094271806091e-06, 'rewards/chosen': 2.703125, 'rewards/rejected': -12.9375, 'rewards/accuracies': 1.0, 'rewards/margins': 15.6875, 'logps/rejected': -2192.0, 'logps/chosen': -1072.0, 'logits/rejected': -0.462890625, 'logits/chosen': -0.84765625, 'epoch': 0.32}
+ 75%|████████████████████████████████████████████████████████████████████████████████▎                          | 3/4 [00:01<00:00,  2.22it/s]
+
+{'eval_loss': 0.00042325258255004883, 'eval_runtime': 2.8386, 'eval_samples_per_second': 1.409, 'eval_steps_per_second': 1.409, 'eval_rewards/chosen': 1.0, 'eval_rewards/rejected': -13.0, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 14.0, 'eval_logps/rejected': -2144.0, 'eval_logps/chosen': -1168.0, 'eval_logits/rejected': -0.251953125, 'eval_logits/chosen': -0.77734375, 'epoch': 0.32}
+
+
+
+
+
+
+
+
+
+ 56%|█████████████████████████████████████████████████████████▊                                             | 210/374 [56:20<37:49, 13.84s/it]
+
+
+
+
+
+
+
+
+
+ 59%|████████████████████████████████████████████████████████████▎                                          | 219/374 [58:21<34:50, 13.49s/it]
+
+
+
+
+
+
+
+
+
+
+ 61%|█████████████████████████████████████████████████████████████▊                                       | 229/374 [1:00:38<33:34, 13.89s/it]
+
+
+
+
+
+
+
+
+
+
+ 64%|████████████████████████████████████████████████████████████████▌                                    | 239/374 [1:02:51<30:21, 13.49s/it]
+
+
+
+
+
+
+
+
+
+
+ 67%|███████████████████████████████████████████████████████████████████▏                                 | 249/374 [1:05:07<28:25, 13.64s/it]
+
+
+
+
+
+
+
+
+
+
+ 69%|█████████████████████████████████████████████████████████████████████▉                               | 259/374 [1:07:22<26:14, 13.69s/it]
+
+
+
+
+
+
+
+
+
+
+ 72%|████████████████████████████████████████████████████████████████████████▋                            | 269/374 [1:09:37<23:30, 13.44s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 75%|███████████████████████████████████████████████████████████████████████████▌                         | 280/374 [1:12:07<21:30, 13.73s/it]
+
+
+
+
+
+
+
+
+
+ 77%|██████████████████████████████████████████████████████████████████████████████                       | 289/374 [1:14:11<19:39, 13.88s/it]
+
+
+
+
+
+
+
+
+
+
+ 80%|████████████████████████████████████████████████████████████████████████████████▋                    | 299/374 [1:16:24<16:51, 13.48s/it]
+ 80%|█████████████████████████████████████████████████████████████████████████████████                    | 300/374 [1:16:38<16:53, 13.69s/it]
+ 50%|█████████████████████████████████████████████████████▌                                                     | 2/4 [00:00<00:00,  3.04it/s]
+
+{'eval_loss': 5.673617124557495e-06, 'eval_runtime': 2.6176, 'eval_samples_per_second': 1.528, 'eval_steps_per_second': 1.528, 'eval_rewards/chosen': -0.3984375, 'eval_rewards/rejected': -17.75, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 17.375, 'eval_logps/rejected': -2208.0, 'eval_logps/chosen': -1184.0, 'eval_logits/rejected': -0.33984375, 'eval_logits/chosen': -0.85546875, 'epoch': 0.48}
+
+
+
+
+
+
+
+
+ 83%|███████████████████████████████████████████████████████████████████████████████████▍                 | 309/374 [1:19:21<15:10, 14.00s/it]
+
+
+
+
+
+
+
+
+
+
+ 85%|██████████████████████████████████████████████████████████████████████████████████████▏              | 319/374 [1:21:31<12:02, 13.13s/it]
+
+
+
+
+
+
+
+
+
+
+ 88%|████████████████████████████████████████████████████████████████████████████████████████▊            | 329/374 [1:23:43<09:53, 13.20s/it]
+
+
+
+
+
+
+
+
+
+
+ 91%|███████████████████████████████████████████████████████████████████████████████████████████▌         | 339/374 [1:25:53<07:41, 13.17s/it]
+
+
+
+
+
+
+
+
+
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████▏      | 349/374 [1:28:09<05:43, 13.74s/it]
+
+
+
+
+
+
+
+
+
+
+ 96%|████████████████████████████████████████████████████████████████████████████████████████████████▉    | 359/374 [1:30:19<03:17, 13.14s/it]
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████▋ | 369/374 [1:32:32<01:06, 13.28s/it]
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████▋| 373/374 [1:33:25<00:13, 13.22s/it]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 374/374 [1:33:38<00:00, 15.02s/it]
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+Removed shared tensor {'gpt_neox.layers.15.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.13.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.11.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.13.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.8.attention.query_key_value.weight', 'gpt_neox.layers.8.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.1.attention.dense.weight', 'gpt_neox.layers.1.attention.query_key_value.weight', 'gpt_neox.layers.1.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.2.attention.query_key_value.weight', 'gpt_neox.layers.3.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.5.attention.query_key_value.weight', 'gpt_neox.layers.0.attention.query_key_value.weight', 'gpt_neox.layers.6.attention.query_key_value.weight', 'gpt_neox.layers.9.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.8.attention.dense.weight', 'gpt_neox.layers.10.attention.query_key_value.weight', 'gpt_neox.layers.11.attention.dense.weight', 'gpt_neox.layers.3.attention.query_key_value.weight', 'gpt_neox.layers.6.attention.dense.weight', 'gpt_neox.layers.4.attention.dense.weight', 'gpt_neox.layers.14.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.0.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.2.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.10.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.1.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.2.attention.dense.weight', 'gpt_neox.layers.0.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.11.attention.query_key_value.weight', 'gpt_neox.layers.12.attention.query_key_value.weight', 'gpt_neox.layers.14.attention.dense.weight', 'gpt_neox.layers.6.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.3.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.9.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.15.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.5.attention.dense.weight', 'gpt_neox.layers.4.attention.query_key_value.weight', 'gpt_neox.layers.9.attention.dense.weight', 'gpt_neox.layers.14.attention.query_key_value.weight', 'gpt_neox.layers.13.attention.dense.weight', 'gpt_neox.layers.13.attention.query_key_value.weight', 'gpt_neox.layers.7.attention.dense.weight', 'gpt_neox.layers.8.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.9.attention.query_key_value.weight', 'gpt_neox.layers.2.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.4.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.5.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.12.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.10.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.11.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.3.attention.dense.weight', 'gpt_neox.layers.7.attention.query_key_value.weight', 'gpt_neox.layers.4.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.7.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.5.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.15.attention.query_key_value.weight', 'gpt_neox.layers.6.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.14.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.0.attention.dense.weight', 'gpt_neox.layers.7.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.10.attention.dense.weight', 'gpt_neox.layers.12.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.15.attention.dense.weight', 'gpt_neox.layers.12.attention.dense.weight'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading

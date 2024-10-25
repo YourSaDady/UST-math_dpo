@@ -1,0 +1,134 @@
+
+
+  0%|                                                                                                                                                                                                                    | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+
+
+
+
+
+
+
+
+  3%|█████▍                                                                                                                                                                                                     | 10/374 [01:21<46:32,  7.67s/it]
+
+
+
+
+
+
+
+
+
+
+  5%|██████████▊                                                                                                                                                                                                | 20/374 [02:37<45:53,  7.78s/it]
+
+
+
+
+
+
+
+
+
+  8%|███████████████▋                                                                                                                                                                                           | 29/374 [03:43<43:54,  7.64s/it]
+[2024-05-19 23:45:12,578] [WARNING] [stage3.py:1898:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+
+
+
+
+
+
+
+
+
+
+ 11%|█████████████████████▋                                                                                                                                                                                     | 40/374 [05:04<40:30,  7.28s/it]
+
+
+
+
+
+
+
+
+
+
+ 13%|███████████████████████████▏                                                                                                                                                                               | 50/374 [06:18<39:01,  7.23s/it]
+
+
+
+
+
+
+
+
+
+ 16%|████████████████████████████████                                                                                                                                                                           | 59/374 [07:24<37:59,  7.24s/it]
+
+
+
+
+
+
+
+
+
+
+ 18%|█████████████████████████████████████▍                                                                                                                                                                     | 69/374 [08:39<38:36,  7.60s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 21%|███████████████████████████████████████████▍                                                                                                                                                               | 80/374 [10:00<35:29,  7.24s/it]
+
+
+
+
+
+
+
+
+
+
+ 24%|████████████████████████████████████████████████▊                                                                                                                                                          | 90/374 [11:14<35:17,  7.46s/it]
+
+
+
+
+
+
+
+
+
+ 26%|█████████████████████████████████████████████████████▋                                                                                                                                                     | 99/374 [12:22<35:03,  7.65s/it]
+ 27%|██████████████████████████████████████████████████████                                                                                                                                                    | 100/374 [12:29<34:03,  7.46s/it]Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 140, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2029, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2412, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 3229, in evaluate
+    output = eval_loop(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 3418, in evaluation_loop
+    loss, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 416, in prediction_step
+    loss, metrics = self.get_batch_metrics(model, inputs, train_eval="eval")
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 320, in get_batch_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 289, in concatenated_forward
+    concatenated_batch = self.concatenated_inputs(batch)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 192, in concatenated_inputs
+    max_length = max(batch["chosen_input_ids"].shape[1], batch["rejected_input_ids"].shape[1])
+TypeError: 'NoneType' object is not subscriptable

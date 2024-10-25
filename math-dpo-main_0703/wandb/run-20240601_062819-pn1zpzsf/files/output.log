@@ -1,0 +1,423 @@
+
+
+  0%|                                                                                | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|▏                                                                     | 1/374 [00:25<2:41:16, 25.94s/it]
+
+
+
+
+
+
+
+
+  2%|██▌                                                                                                          | 9/374 [02:58<1:53:12, 18.61s/it]
+
+
+
+
+
+
+
+
+
+
+  5%|█████▍                                                                                                      | 19/374 [06:00<1:45:31, 17.84s/it]
+
+
+
+
+
+
+
+
+
+
+
+  8%|████████▋                                                                                                   | 30/374 [09:22<1:49:14, 19.05s/it]
+
+
+
+
+
+
+
+
+
+ 10%|███████████▎                                                                                                | 39/374 [12:15<1:48:44, 19.48s/it]
+
+
+
+
+
+
+
+
+
+
+ 13%|██████████████▏                                                                                             | 49/374 [15:19<1:39:49, 18.43s/it]
+
+
+
+
+
+
+
+
+
+
+ 16%|█████████████████                                                                                           | 59/374 [18:21<1:33:02, 17.72s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 19%|███████████████▌                                                                   | 70/374 [21:39<1:32:58, 18.35s/it]
+
+
+
+
+
+
+
+
+
+
+ 21%|█████████████████▊                                                                 | 80/374 [24:55<1:36:04, 19.61s/it]
+
+
+
+
+
+
+
+
+
+
+ 24%|███████████████████▉                                                               | 90/374 [28:09<1:30:30, 19.12s/it]
+
+
+
+
+
+
+
+
+
+ 27%|█████████████████████▉                                                            | 100/374 [31:16<1:21:49, 17.92s/it]
+ ... (more hidden) ...
+
+{'loss': 0.0004, 'learning_rate': 1e-05, 'rewards/chosen': 2.0899481773376465, 'rewards/rejected': -10.477792739868164, 'rewards/accuracies': 1.0, 'rewards/margins': 12.567741394042969, 'logps/rejected': -1797.3189697265625, 'logps/chosen': -757.3116455078125, 'logits/rejected': -0.2526002824306488, 'logits/chosen': -0.9082981944084167, 'epoch': 0.16}
+{'eval_loss': 0.0008230548119172454, 'eval_runtime': 2.3563, 'eval_samples_per_second': 1.698, 'eval_steps_per_second': 1.698, 'eval_rewards/chosen': 1.4756348133087158, 'eval_rewards/rejected': -8.656606674194336, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 10.132242202758789, 'eval_logps/rejected': -1915.54150390625, 'eval_logps/chosen': -939.4349975585938, 'eval_logits/rejected': -0.08186016231775284, 'eval_logits/chosen': -1.0047636032104492, 'epoch': 0.16}
+
+
+
+
+
+
+
+
+
+ 29%|████████████████████████                                                          | 110/374 [35:03<1:20:49, 18.37s/it]
+
+
+
+
+
+
+
+
+
+
+ 32%|██████████████████████████▎                                                       | 120/374 [38:06<1:18:39, 18.58s/it]
+
+
+
+
+
+
+
+
+
+
+ 35%|████████████████████████████▌                                                     | 130/374 [41:14<1:16:12, 18.74s/it]
+
+
+
+
+
+
+
+
+
+
+ 37%|██████████████████████████████▋                                                   | 140/374 [44:18<1:11:26, 18.32s/it]
+
+
+
+
+
+
+
+
+
+ 40%|████████████████████████████████▋                                                 | 149/374 [47:02<1:09:18, 18.48s/it]
+
+
+
+
+
+
+
+
+
+
+ 43%|██████████████████████████████████▊                                               | 159/374 [50:09<1:07:01, 18.70s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 45%|█████████████████████████████████████▎                                            | 170/374 [53:29<1:03:13, 18.59s/it]
+
+
+
+
+
+
+
+
+
+
+ 48%|████████████████████████████████████████▍                                           | 180/374 [56:34<58:23, 18.06s/it]
+
+
+
+
+
+
+
+
+
+
+ 51%|██████████████████████████████████████████▋                                         | 190/374 [59:36<56:34, 18.45s/it]
+
+
+
+
+
+
+
+
+
+ 53%|███████████████████████████████████████████▋                                      | 199/374 [1:02:20<52:39, 18.06s/it]
+ 53%|███████████████████████████████████████████▊                                      | 200/374 [1:02:39<52:53, 18.24s/it]
+ ... (more hidden) ...
+
+{'eval_loss': 0.00029308555531315506, 'eval_runtime': 2.2291, 'eval_samples_per_second': 1.794, 'eval_steps_per_second': 1.794, 'eval_rewards/chosen': 2.004843235015869, 'eval_rewards/rejected': -9.6182279586792, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 11.623071670532227, 'eval_logps/rejected': -1925.15771484375, 'eval_logps/chosen': -934.1429443359375, 'eval_logits/rejected': -0.10617466270923615, 'eval_logits/chosen': -0.9917440414428711, 'epoch': 0.32}
+
+
+
+
+
+
+
+
+ 56%|█████████████████████████████████████████████▊                                    | 209/374 [1:06:03<51:40, 18.79s/it]
+
+
+
+
+
+
+
+
+
+
+ 59%|████████████████████████████████████████████████                                  | 219/374 [1:09:04<45:56, 17.79s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 61%|██████████████████████████████████████████████████▍                               | 230/374 [1:12:24<43:56, 18.31s/it]
+
+
+
+
+
+
+
+
+
+ 64%|████████████████████████████████████████████████████▍                             | 239/374 [1:15:07<41:36, 18.49s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 67%|██████████████████████████████████████████████████████▊                           | 250/374 [1:18:22<36:34, 17.70s/it]
+
+
+
+
+
+
+
+
+
+ 69%|████████████████████████████████████████████████████████▊                         | 259/374 [1:21:07<35:01, 18.28s/it]
+
+
+
+
+
+
+
+
+
+
+ 72%|██████████████████████████████████████████████████████████▉                       | 269/374 [1:24:07<31:47, 18.16s/it]
+
+
+
+
+
+
+
+
+
+
+ 75%|█████████████████████████████████████████████████████████████▏                    | 279/374 [1:27:02<28:03, 17.72s/it]
+
+
+
+
+
+
+
+
+
+
+ 77%|███████████████████████████████████████████████████████████████▎                  | 289/374 [1:30:01<25:14, 17.82s/it]
+
+
+
+
+
+
+
+
+
+
+ 80%|█████████████████████████████████████████████████████████████████▌                | 299/374 [1:32:59<22:34, 18.06s/it]
+ 80%|█████████████████████████████████████████████████████████████████▊                | 300/374 [1:33:18<22:38, 18.35s/it]
+ ... (more hidden) ...
+
+{'eval_loss': 0.00027597974985837936, 'eval_runtime': 2.2621, 'eval_samples_per_second': 1.768, 'eval_steps_per_second': 1.768, 'eval_rewards/chosen': 2.3135712146759033, 'eval_rewards/rejected': -9.95731258392334, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 12.270883560180664, 'eval_logps/rejected': -1928.548583984375, 'eval_logps/chosen': -931.0556640625, 'eval_logits/rejected': -0.12469354271888733, 'eval_logits/chosen': -0.9756618738174438, 'epoch': 0.48}
+
+
+
+
+
+
+
+
+
+ 83%|███████████████████████████████████████████████████████████████████▉              | 310/374 [1:37:12<20:13, 18.96s/it]
+
+
+
+
+
+
+
+
+
+ 85%|█████████████████████████████████████████████████████████████████████▉            | 319/374 [1:39:59<17:09, 18.72s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 88%|████████████████████████████████████████████████████████████████████████▎         | 330/374 [1:43:15<13:12, 18.01s/it]
+
+
+
+
+
+
+
+
+
+
+ 91%|██████████████████████████████████████████████████████████████████████████▌       | 340/374 [1:46:18<10:31, 18.58s/it]
+
+
+
+
+
+
+
+
+
+
+ 94%|████████████████████████████████████████████████████████████████████████████▋     | 350/374 [1:49:20<07:15, 18.16s/it]
+
+
+
+
+
+
+
+
+
+ 96%|██████████████████████████████████████████████████████████████████████████████▋   | 359/374 [1:51:59<04:26, 17.77s/it]
+
+
+
+
+
+
+
+
+
+
+ 99%|████████████████████████████████████████████████████████████████████████████████▉ | 369/374 [1:55:04<01:30, 18.15s/it]
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 374/374 [1:56:35<00:00, 18.70s/it]
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+{'train_runtime': 7005.6224, 'train_samples_per_second': 0.854, 'train_steps_per_second': 0.053, 'train_loss': 0.03787012841259279, 'epoch': 0.6}
+Removed shared tensor {'gpt_neox.layers.15.attention.dense.weight', 'gpt_neox.layers.5.attention.dense.weight', 'gpt_neox.layers.7.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.12.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.3.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.11.attention.dense.weight', 'gpt_neox.layers.5.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.11.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.6.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.6.attention.dense.weight', 'gpt_neox.layers.15.attention.query_key_value.weight', 'gpt_neox.layers.15.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.1.attention.query_key_value.weight', 'gpt_neox.layers.8.attention.dense.weight', 'gpt_neox.layers.2.attention.dense.weight', 'gpt_neox.layers.7.attention.dense.weight', 'gpt_neox.layers.9.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.10.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.12.attention.dense.weight', 'gpt_neox.layers.14.attention.query_key_value.weight', 'gpt_neox.layers.0.attention.dense.weight', 'gpt_neox.layers.1.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.5.attention.query_key_value.weight', 'gpt_neox.layers.0.attention.query_key_value.weight', 'gpt_neox.layers.13.attention.query_key_value.weight', 'gpt_neox.layers.11.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.15.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.1.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.2.attention.query_key_value.weight', 'gpt_neox.layers.6.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.14.attention.dense.weight', 'gpt_neox.layers.0.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.8.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.4.attention.query_key_value.weight', 'gpt_neox.layers.10.attention.query_key_value.weight', 'gpt_neox.layers.10.attention.dense.weight', 'gpt_neox.layers.6.attention.query_key_value.weight', 'gpt_neox.layers.3.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.2.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.14.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.0.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.4.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.12.attention.query_key_value.weight', 'gpt_neox.layers.7.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.9.attention.query_key_value.weight', 'gpt_neox.layers.12.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.9.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.5.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.9.attention.dense.weight', 'gpt_neox.layers.13.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.8.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.13.attention.dense.weight', 'gpt_neox.layers.1.attention.dense.weight', 'gpt_neox.layers.4.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.10.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.2.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.4.attention.dense.weight', 'gpt_neox.layers.8.attention.query_key_value.weight', 'gpt_neox.layers.11.attention.query_key_value.weight', 'gpt_neox.layers.3.attention.query_key_value.weight', 'gpt_neox.layers.14.mlp.dense_h_to_4h.weight', 'gpt_neox.layers.3.attention.dense.weight', 'gpt_neox.layers.13.mlp.dense_4h_to_h.weight', 'gpt_neox.layers.7.attention.query_key_value.weight'} while saving. This should be OK, but check by verifying that you don't receive any warning while reloading

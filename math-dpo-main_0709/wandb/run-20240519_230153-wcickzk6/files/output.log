@@ -1,0 +1,134 @@
+
+
+  0%|                                                                                                                                                                                                                    | 0/374 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+
+
+
+
+
+
+
+
+  3%|█████▍                                                                                                                                                                                                     | 10/374 [01:22<47:48,  7.88s/it]
+
+
+
+
+
+
+
+
+
+  5%|██████████▎                                                                                                                                                                                                | 19/374 [02:33<47:35,  8.04s/it]
+
+
+
+
+
+
+
+
+
+
+  8%|███████████████▋                                                                                                                                                                                           | 29/374 [03:49<45:21,  7.89s/it]
+
+  8%|████████████████▎                                                                                                                                                                                          | 30/374 [03:57<44:51,  7.82s/it]
+
+
+
+
+
+
+
+
+
+
+ 11%|█████████████████████▋                                                                                                                                                                                     | 40/374 [05:11<41:13,  7.41s/it]
+
+
+
+
+
+
+
+
+
+
+ 13%|███████████████████████████▏                                                                                                                                                                               | 50/374 [06:27<40:06,  7.43s/it]
+
+
+
+
+
+
+
+
+
+ 16%|████████████████████████████████                                                                                                                                                                           | 59/374 [07:35<39:06,  7.45s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 19%|█████████████████████████████████████▉                                                                                                                                                                     | 70/374 [09:01<40:00,  7.90s/it]
+
+
+
+
+
+
+
+
+
+
+ 21%|███████████████████████████████████████████▍                                                                                                                                                               | 80/374 [10:16<36:47,  7.51s/it]
+
+
+
+
+
+
+
+
+
+
+ 24%|████████████████████████████████████████████████▊                                                                                                                                                          | 90/374 [11:32<36:10,  7.64s/it]
+
+
+
+
+
+
+
+
+
+ 26%|█████████████████████████████████████████████████████▋                                                                                                                                                     | 99/374 [12:42<35:22,  7.72s/it]
+ 27%|██████████████████████████████████████████████████████                                                                                                                                                    | 100/374 [12:49<34:18,  7.51s/it]Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 140, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2029, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2412, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 3229, in evaluate
+    output = eval_loop(
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 3418, in evaluation_loop
+    loss, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 416, in prediction_step
+    loss, metrics = self.get_batch_metrics(model, inputs, train_eval="eval")
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 320, in get_batch_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 289, in concatenated_forward
+    concatenated_batch = self.concatenated_inputs(batch)
+  File "/home/nlpintern1/anaconda3/envs/songyc_lmflow/lib/python3.9/site-packages/trl/trainer/dpo_trainer.py", line 192, in concatenated_inputs
+    max_length = max(batch["chosen_input_ids"].shape[1], batch["rejected_input_ids"].shape[1])
+TypeError: 'NoneType' object is not subscriptable

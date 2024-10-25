@@ -1,0 +1,16 @@
+  0%|                                                                                                                                                                                                | 0/374 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_llama2.py", line 156, in <module>
+    dpo_trainer.train()
+  File "/home/nlpintern1/anaconda3/envs/mygo_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/nlpintern1/anaconda3/envs/mygo_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/nlpintern1/anaconda3/envs/mygo_lmflow/lib/python3.9/site-packages/transformers/trainer.py", line 2723, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_pythia_w_mask.py", line 1175, in compute_loss
+    loss, metrics = self.get_batch_loss_metrics(model, inputs, train_eval="train")
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_pythia_w_mask.py", line 1116, in get_batch_loss_metrics
+    ) = self.concatenated_forward(model, batch)
+  File "/import/home2/nlpintern1/songyc/finer_dpo/math-dpo-main/math-dpo-main/spin/dpo_pythia_w_mask.py", line 1082, in concatenated_forward
+    concatenated_batch["concatenated_mask"],  #新传入的masks
+KeyError: 'concatenated_mask'
